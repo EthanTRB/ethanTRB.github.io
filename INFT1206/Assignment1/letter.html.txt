@@ -40,7 +40,13 @@ Awesome Science faculty
 <h1>Re: Eileen Dover university application</h1>
 
 <p>Dear Eileen,</p>
+<h2>Starting dates</h2>
 
+<ul>
+<li>First semester: September</li>
+<li>Second semester: January</li>
+<li>Third semester: May</li>
+</ul>
 <p>
 Thank you for your recent application to the University of Awesome.
 </p>
