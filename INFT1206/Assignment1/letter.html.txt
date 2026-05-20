@@ -54,7 +54,13 @@ Thank you for your recent application to the University of Awesome.
 <p>
 We will review your application and contact you soon.
 </p>
+<h2>Subjects of study</h2>
 
+<ol>
+<li>Science</li>
+<li>Mathematics</li>
+<li>Computer Studies</li>
+</ol>
 <p>Yours sincerely,</p>
 
 <p>Dr Eleanor Gaye</p>
