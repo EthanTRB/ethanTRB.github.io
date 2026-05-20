@@ -41,6 +41,16 @@ Awesome Science faculty
 
 <p>Dear Eileen,</p>
 
-<p>Hello</p>
+<p>
+Thank you for your recent application to the University of Awesome.
+</p>
+
+<p>
+We will review your application and contact you soon.
+</p>
+
+<p>Yours sincerely,</p>
+
+<p>Dr Eleanor Gaye</p>
 </body>
 </html>
