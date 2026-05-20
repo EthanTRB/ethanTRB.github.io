@@ -32,6 +32,15 @@ h2 {
 </head>
 
 <body>
+<address class="sender-column">
+<strong>Dr. Eleanor Gaye</strong><br>
+Awesome Science faculty
+</address>
 
+<h1>Re: Eileen Dover university application</h1>
+
+<p>Dear Eileen,</p>
+
+<p>Hello</p>
 </body>
 </html>
