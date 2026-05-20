@@ -1,0 +1,37 @@
+<!--
+Name: Talan Bascombe
+File: letter.html
+Date: 20 May 2026
+Description: Assignment 1 Part 1 - Marking up a letter
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Letter</title>
+
+<style>
+body {
+  font: 1.2em / 1.5 system-ui;
+}
+
+.sender-column {
+  text-align: right;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+</style>
+
+</head>
+
+<body>
+
+</body>
+</html>
