@@ -5,105 +5,204 @@ Date: 20 May 2026
 Description: Assignment 1 Part 2 - Structuring a page of content.
 -->
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <title>Birdwatching</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300%7CCinzel+Decorative:700" rel="stylesheet">
+
 <style>
 body {
-  max-width: 1000px;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+  background-color: darkgrey;
+}
+
+body {
+  width: 70%;
+  min-width: 800px;
   margin: 0 auto;
-  font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+}
+
+h1,
+h2 {
+  font-family: "Cinzel Decorative", cursive;
+  color: #2a2a2a;
+}
+
+p,
+li {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #2a2a2a;
 }
 
 h1 {
+  font-size: 4rem;
   text-align: center;
-  background-color: #5c8a3d;
-  color: white;
-  padding: 20px;
+  text-shadow: 2px 2px 10px black;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+main,
+header,
+nav,
+article,
+aside,
+footer,
+section {
+  background-color: #00ff0080;
+  padding: 1%;
+}
+
+h1 {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+header img {
+  height: 60px;
 }
 
 nav ul {
+  padding: 0;
+  list-style-type: none;
   display: flex;
-  justify-content: space-around;
-  list-style: none;
-  background-color: #333;
-  padding: 15px;
 }
 
 nav li {
-  color: white;
+  text-align: center;
+  flex: 1;
+}
+
+nav a {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover,
+nav a:focus {
+  color: red;
 }
 
 main {
   display: flex;
-  gap: 20px;
-  background-color: white;
-  padding: 20px;
+  gap: 10px;
 }
 
 article {
-  flex: 2;
+  flex: 4;
 }
 
 aside {
   flex: 1;
-  background-color: #e6f2dc;
-  padding: 15px;
+}
+
+aside a {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+aside img {
+  max-width: 100%;
 }
 
 footer {
-  text-align: center;
-  background-color: #333;
-  color: white;
-  padding: 10px;
+  margin-top: 10px;
 }
 </style>
 </head>
 
 <body>
-
-<h1>Birdwatching</h1>
+<header>
+<h1>
+Birdwatching
+<img src="https://mdn.github.io/shared-assets/images/examples/learn/birds/dove.png" alt="">
+</h1>
 
 <nav>
 <ul>
-<li>Home</li>
-<li>Get started</li>
-<li>Photos</li>
-<li>Gear</li>
-<li>Forum</li>
+<li><a href="#">Home</a></li>
+<li><a href="#">Get started</a></li>
+<li><a href="#">Photos</a></li>
+<li><a href="#">Gear</a></li>
+<li><a href="#">Forum</a></li>
 </ul>
 </nav>
+</header>
 
 <main>
 <article>
-
 <h2>Welcome</h2>
 
 <p>
-Welcome to our fake birdwatching website. Birdwatching is an exciting hobby where people observe birds in nature.
+Welcome to our fake birdwatching site. If this were a real site, it
+would be the ideal place to come to learn more about birdwatching,
+whether you are a beginner looking to learn how to get into birding,
+or an expert wanting to share ideas, tips, and photos with other
+like-minded people.
 </p>
 
+<p>
+So don't waste time! Get what you need, then turn off that computer
+and get out into the great outdoors!
+</p>
 </article>
 
 <aside>
+<h2>Favorite photos</h2>
 
-<h2>Favourite photos</h2>
+<a href="https://mdn.github.io/shared-assets/images/examples/learn/birds/favorite-bird-1.jpg">
+<img src="https://mdn.github.io/shared-assets/images/examples/learn/birds/favorite-bird-1_th.jpg" alt="Small black bird, black claws, long black slender beak">
+</a>
 
-<ul>
-<li>Bird photo 1</li>
-<li>Bird photo 2</li>
-<li>Bird photo 3</li>
-</ul>
+<a href="https://mdn.github.io/shared-assets/images/examples/learn/birds/favorite-bird-2.jpg">
+<img src="https://mdn.github.io/shared-assets/images/examples/learn/birds/favorite-bird-2_th.jpg" alt="Top half of a pretty bird with bright blue plumage on neck, light colored beak, blue headdress">
+</a>
 
+<a href="https://mdn.github.io/shared-assets/images/examples/learn/birds/favorite-bird-3.jpg">
+<img src="https://mdn.github.io/shared-assets/images/examples/learn/birds/favorite-bird-3_th.jpg" alt="Top half of a large bird with white plumage, very long curved narrow light colored beak">
+</a>
+
+<a href="https://mdn.github.io/shared-assets/images/examples/learn/birds/favorite-bird-4.jpg">
+<img src="https://mdn.github.io/shared-assets/images/examples/learn/birds/favorite-bird-4_th.jpg" alt="Large bird, mostly white plumage with black plumage on back and rear, long straight white beak">
+</a>
 </aside>
 </main>
 
 <footer>
-<p>This fake website example is CC0.</p>
-</footer>
+<p>
+This fake website example is CC0 — any part of this code may be reused
+in any way you wish. Original example written by Chris Mills, 2016.
+</p>
 
+<p>
+<a href="http://game-icons.net/lorc/originals/dove.html">Dove icon</a>
+by Lorc.
+</p>
+</footer>
 </body>
 </html>
