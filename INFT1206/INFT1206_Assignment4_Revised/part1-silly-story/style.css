@@ -1,0 +1,47 @@
+/*
+Name: Ethan Bascombe
+File: style.css
+Date: 29 July 2026
+Description: Styling for the Silly Story Generator webpage.
+*/
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  width: 350px;
+  margin: 40px auto;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+div {
+  padding-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 150px;
+}
+
+fieldset {
+  border: 0;
+  padding: 0 0 20px;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.story {
+  background-color: #ffc125;
+  color: #5e2612;
+  padding: 10px;
+  visibility: hidden;
+}

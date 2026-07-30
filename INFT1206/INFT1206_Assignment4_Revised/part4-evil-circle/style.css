@@ -1,0 +1,39 @@
+/*
+Name: Ethan Bascombe
+File: style.css
+Date: 29 July 2026
+Description: Styles for the bouncing balls and evil circle game.
+*/
+
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+h1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin: 0;
+  color: white;
+  text-shadow:
+    1px 1px 1px black,
+    2px 2px 1px black;
+}
+
+p {
+  position: absolute;
+  margin: 0;
+  top: 35px;
+  right: 5px;
+  color: #aaaaaa;
+}
+
+canvas {
+  display: block;
+}
